@@ -10,9 +10,9 @@
 
 return [
     'database' => [
-        'name' => 'database name',
-        'username' => 'username',
-        'password' => 'password',
+        'name' => 'boardgames',
+        'username' => 'php',
+        'password' => 'Phpconnectie',
         'connection' => 'mysql:host=localhost:3306',
         'options' => [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
