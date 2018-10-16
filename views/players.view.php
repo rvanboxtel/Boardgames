@@ -10,7 +10,16 @@
         <hr>
         <div class="col-10 offset-1">
             <h4>Players</h4>
+            <?php
+            foreach ($players as $items) {
+                foreach ($items as $item => $value) {
+                    if ($item == 'nickname') {
+                        echo "<li class='list-group-item'>" . ucfirst($value) . "</li>";
+                    }
+                }
+            }
 
+            ?>
         </div><!-- End div - players -->
         <hr>
         <div class="col-10 offset-1">

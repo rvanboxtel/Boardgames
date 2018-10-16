@@ -40,7 +40,7 @@
                     <a class="nav-link" href="users">Users </a>
                 </li>
             <?php endif; ?>
-            <?php if($current == 'players') : ?>
+            <?php if($current == 'Player') : ?>
                 <li class="nav-item active">
                     <a class="nav-link" href="players">Players <span class="sr-only">(current)</span></a>
                 </li>

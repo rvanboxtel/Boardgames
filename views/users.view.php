@@ -1,13 +1,10 @@
 <?php include "partials/head.php"; ?>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-10 offset-1">
-                <div class="bg-primary text-white ">
-                    Welkom ADSD 2018!
-                </div>
-            </div> <!-- End div greeting -->
             <hr>
             <div class="col-10 offset-1">
+                <!-- added a new page for the adding of players -->
+                <h1><a class="text-dark" href="userform">Add Player</a></h1>
                 <h4>Users</h4>
                 <?php
                 foreach ($users as $items) {

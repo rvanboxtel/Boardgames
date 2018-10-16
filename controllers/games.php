@@ -11,4 +11,4 @@ require 'core/games.php';
 $games = $app['database']->selectAll('games', 'games');
 
 
-require 'views games.view.php';
+require 'views/games.view.php';

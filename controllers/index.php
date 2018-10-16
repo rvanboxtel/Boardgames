@@ -1,16 +1,4 @@
 <?php
-/**
- * get class
- * @Player
- * @Users
- */
-require 'core/Player.php';
-require 'core/Users.php';
-
-/**
- * @var $results database query for landing page
- */
-$users = $app['database']->selectAll('users', 'Users');
 
 /**
  * @internal view index.php
