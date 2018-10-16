@@ -4,6 +4,7 @@
  */
 $router->get('', 'controllers/index.php');
 $router->get('home', 'controllers/index.php');
+$router->get('userform', 'controllers/userform.php');
 $router->get('players', 'controllers/players.php');
 $router->get('games', 'controllers/games.php');
 $router->get('users', 'controllers/users.php');

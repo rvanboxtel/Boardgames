@@ -4,5 +4,5 @@
  * phpoop
  */
 
-
+require 'core/game.php';
 require 'views/games.view.php';

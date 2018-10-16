@@ -10,7 +10,7 @@ require 'core/Users.php';
 /**
  * @var $results database query for landing page
  */
-$results = $app['database']->selectAll('users', 'Users');
+$users = $app['database']->selectAll('users', 'Users');
 
 /**
  * @internal view index.php

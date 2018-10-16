@@ -8,3 +8,7 @@ footer {
 .jumbotron-fluid {
     background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/A_Game_Of_Thrones_board_game_detail.jpg/1200px-A_Game_Of_Thrones_board_game_detail.jpg") no-repeat center center;
 }
+
+.center-of-screen {
+ margin: auto;
+}
