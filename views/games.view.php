@@ -12,7 +12,7 @@
                 <?php
                 foreach ($games as $items) {
                     foreach ($items as $item => $value) {
-                        if ($item == 'title') {
+                        if ($item == 'name') {
                             echo "<li class='list-group-item'>" . ucfirst($value) . "</li>";
                         }
                     }

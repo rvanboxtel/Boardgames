@@ -1,9 +1,4 @@
 <footer class="align-baseline">
-    <blockquote class=" blockquote blockquote-reverse ">
-        <p class="col-10 offset-1 text-success">
-            Het schrijven van programmeercode is een van de meest creatieve manieren van denken. Iedereen zal het anders doen. <i><small>Stephan Hoeksema</small></i>
-        </p>
-    </blockquote>
 </footer>
 
 <!-- JavaScript / Popper.js / jQuery all for Bootstrap -->

@@ -58,9 +58,6 @@
                     <a class="nav-link" href="battles">Battles </a>
                 </li>
             <?php endif; ?>
-            <li class="nav-item ">
-                <a class="nav-link" href="excercise">Exercise </a>
-            </li>
 
         </ul>
 

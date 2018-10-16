@@ -9,7 +9,6 @@ $router->get('players', 'controllers/players.php');
 $router->get('games', 'controllers/games.php');
 $router->get('users', 'controllers/users.php');
 $router->get('battles', 'controllers/battles.php');
-$router->get('excercise', 'controllers/excercise.php');
 
 /**
  * POST routes
