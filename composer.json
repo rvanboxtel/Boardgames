@@ -1,0 +1,8 @@
+{
+    "name": "romek/boardgames",
+    "require": {},
+
+    "autoload": {
+        "classmap": ["./"]
+    }
+}

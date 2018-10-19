@@ -58,6 +58,16 @@
                     <a class="nav-link" href="battles">Battles </a>
                 </li>
             <?php endif; ?>
+             <?php if($current == 'userform') : ?>
+                <li class="nav-item active">
+                    <a class="nav-link" href="userform">Register <span class="sr-only">(current)</span></a>
+                </li>
+            <?php else :?>
+                <li class="nav-item ">
+                    <a class="nav-link" href="userform">Register </a>
+                </li>
+            <?php endif; ?>
+
 
         </ul>
 
